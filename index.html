@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>MaxGraph New Site</title>
+  <link rel="preload" href="fonts/MullerRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+
+    <header class="header">
+  <div class="container-fluid header__container">
+
+    <a href="#" class="logo">
+      <img loading="lazy" src="../img/svg/ROBO.SCHOOL.svg" class="image" alt="лого Робо Скул" height="48" width="228">
+    </a>
+    <nav class="nav" title="">
+
+      <ul class="list-reset nav__list ">
+        <li class="nav__item"><a href="#about" class="nav__link" data-scroll>О школе</a></li>
+        <li class="nav__item"><a href="#trainers" class="nav__link" data-scroll>Тренеры</a></li>
+        <li class="nav__item"><a href="#price" class="nav__link" data-scroll>Стоимость</a></li>
+      </ul>
+
+    </nav>
+    <a href="tel:+78000001122" class="phone header__phone">+7 (800-00) 0-11-22</a>
+
+    </button>
+    </div>
+  </header>
+
+    <main class="main">
+      <section class="hero">
+  <div class="container hero__container">
+    <div class="hero__content">
+      <h1 class="hero__title">ROBO SCHOOL</h1>
+      <div class="hero__text">Курсы повышения квалификации по робототехнике для педагогов начальной школы</div>
+      <a href="#price" class="hero__link btn btn-reset" data-scroll>Записаться на курс</a>
+    </div>
+    <div class="hero__image">
+      <picture>
+        <source srcset="../img/Group 211.avif" type="image/avif">
+        <source srcset="../img/Group 211.webp" type="image/webp">
+        <img loading="lazy" src="../img/Group 211.png" class="image" width="783" height="917" alt="">
+      </picture>
+    </div>
+  </div>
+</section>
+
+      <section class="about">
+  <div class="container" id="about">
+    <h2 class="visually-hidden">О школе Robo school</h2>
+    <div class="about__descr">
+      <span class="about__descr-hl">
+        Robo School
+      </span>
+      — учреждение для формирования кадрового педагогического резерва в сфере робототехникии программирования
+
+    </div>
+    <ul class="about__list list-reset">
+      <div class="about__item">
+        <div class="about__digit">10</div>
+        <div class="about__text">УМК по различным направлениям по робототехнике</div>
+      </div>
+      <div class="about__item">
+        <div class="about__digit">20</div>
+        <div class="about__text">Школ, в которых запущена робототехника</div>
+      </div>
+      <div class="about__item">
+        <div class="about__digit">100</div>
+        <div class="about__text">Педагогов прошедших курсы повышения квалификации</div>
+      </div>
+      <div class="about__item">
+        <div class="about__digit">10 000</div>
+        <div class="about__text">Обученных детей на базе собственных центров</div>
+      </div>
+    </ul>
+  </div>
+</section>
+
+      <section class="text">
+  <div class="container">
+    <div class="text__head">
+      Что вы получите после курса
+    </div>
+    <ul class="list-reset text__list">
+      <li class="text__item">
+        <div class="text__title">Удостоверение</div>
+        <div class="text__text">Дающее право преподавать робототехнику для детей 6-12 лет в образовательных учреждениях</div>
+      </li>
+      <li class="text__item">
+        <div class="text__title">Знания</div>
+        <div class="text__text">По основам разработки учебно-методических комплексов
+          по робототехнике и программированию</div>
+      </li>
+      <li class="text__item">
+        <div class="text__title">Практику
+          <span class="tooltip">
+            <button class=" btn-reset tooltip__btn" aria-describedby="practice">
+<svg class="">
+  <use xlink:href="img/sprite.svg#tooltip__icon"></use>
+</svg>
+            </button>
+            <span class="tooltip__txt" role="tooltip" id="practice">
+              <span class="visually-hidden">Тултип:</span>
+                При наличии свободных мест
+            </span>
+          </span>
+        </div>
+        <div class="text__text">Возможность пройти практику по преподаванию робототехники на базе R: ED LAB (в оффлайн или онлайн формате)</div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="trainers" id="trainers">
+  <div class="container">
+    <div class="h2 trainers__header">
+      Профессиональные тренеры
+    </div>
+
+  </div>
+  <div class="swiper trainers__slider">
+    <div class="swiper-wrapper">
+       <div class="swiper-slide">
+        <picture class="trainers__img">
+          <source srcset="img/1.avif" type="image/avif">
+          <source srcset="img/1.webp" type="image/webp">
+          <img loading="lazy" src="img/1.jpg" class="image trainers__image" width="360" height="500" alt="">
+        </picture>
+        <div class="trainers__name">Ирина Лайм</div>
+        <div class="trainers__role">преподаватель по робототехнике</div>
+
+       </div>
+       <div class="swiper-slide">
+        <picture class="trainers__img">
+          <source srcset="img/2.avif" type="image/avif">
+          <source srcset="img/2.webp" type="image/webp">
+          <img loading="lazy" src="img/2.jpg" class="image trainers__image" width="360" height="500" alt="">
+        </picture>
+        <div class="trainers__name">Марина Орлова</div>
+        <div class="trainers__role">преподаватель по робототехнике</div>
+
+       </div>
+       <div class="swiper-slide">
+        <picture class="trainers__img">
+          <source srcset="img/3.avif" type="image/avif">
+          <source srcset="img/3.webp" type="image/webp">
+          <img loading="lazy" src="img/3.jpg" class="image trainers__image" width="360" height="500" alt="">
+        </picture>
+        <div class="trainers__name">Максим Петров</div>
+        <div class="trainers__role">преподаватель по программированию</div>
+
+       </div>
+       <div class="swiper-slide">
+        <picture class="trainers__img">
+          <source srcset="img/4.avif" type="image/avif">
+          <source srcset="img/4.webp" type="image/webp">
+          <img loading="lazy" src="img/4.jpg" class="image image1 trainers__image" width="360" height="500" alt="">
+        </picture>
+        <div class="trainers__name">Константин Назаров</div>
+        <div class="trainers__role">преподаватель по робототехникерпртмслр</div>
+
+       </div>
+       <div class="swiper-slide">
+        <picture class="trainers__img">
+          <source srcset="img/5.avif" type="image/avif">
+          <source srcset="img/5.webp" type="image/webp">
+          <img loading="lazy" src="img/5.jpg" class="image trainers__image" width="360" height="500" alt="">
+        </picture>
+        <div class="trainers__name">Лиза Весенняя</div>
+        <div class="trainers__role">преподаватель по программированию</div>
+
+       </div>
+
+    </div>
+
+  </div>
+  <div class="container">
+  <div class="trainers__nav">
+    <div class="trainers__scroll swiper-scrollbar"></div>
+    <div class="trainers__btns">
+      <button class="btn-reset trainers__slider-btn trainers__slider-btn--prev" aria-label="Перейти к предыдущему слайду">
+
+      </button>
+      <button class="btn-reset trainers__slider-btn trainers__slider-btn--next" aria-label="Перейти к следующему слайду">
+
+      </button>
+    </div>
+  </div></div>
+</section>
+
+      <section class="packet">
+  <div class="container">
+    <div class="packet__header">Выберите нужный пакет</div>
+    <div class="packet__list">
+      <div class="packet__item packet__item_black">
+        <div class="packet__version packet__version_black">— PRO –</div>
+        <div class="packet__price packet__price_black">20.000 ₽</div>
+        <div class="packet__descr packet__descr_black">УМК по робототетхнике и программированию</div>
+        <div class="packet__button packet__button_black">Оставить</div>
+      </div>
+      <div class="packet__item">
+        <div class="packet__version">— ROBO –</div>
+        <div class="packet__price">15.000 ₽</div>
+        <div class="packet__descr">УМК по робототетхнике </div>
+        <div class="packet__button">Оставить</div>
+      </div>
+      <div class="packet__item">
+        <div class="packet__version">— PROG –</div>
+        <div class="packet__price">10.000 ₽</div>
+        <div class="packet__descr">УМК по программированию</div>
+        <div class="packet__button">Оставить</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="order">
+  <div class="container order__container">
+    <div class="order__text order__item1">
+      <div class="order__title">Запишитесь на курс со скидкой 10%</div>
+      <div class="order__text">Акция действительна до 10 марта 2022 года</div>
+    </div>
+    <div class="order__form order__item2">
+      <form action="#" class="form order__forma order__form">
+        <label class="form__label">
+          <input type="text" name="Имя" class="input-reset form__input input-text" placeholder="Имя">
+        </label>
+        <label class="form__label">
+          <input type="tel" name="Телефон" class="input-reset form__input input-tel" placeholder="Телефон">
+        </label>
+        <label class="form__label">
+          <input type="email" name="E-mail" class="input-reset form__input  input-email" placeholder="E-mail">
+        </label>
+        <button class="form__label btn-reset form__btn btn btn--dark">Оформить заявку</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+    </main>
+<footer class="footer">
+  <div class="container-fluid">
+    <div class="footer__container">
+<div class="footer__left">
+  <a href="#" class="logo">
+    <img loading="lazy" src="../img/svg/ROBO.SCHOOL.svg" class="image" alt="лого Робо Скул" height="48" width="228">
+  </a>
+  <div class="footer__copy">© ROBO.SCHOOL</div>
+</div>
+<div class="footer__right">
+  <a href="tel:+78000001122" class="phone">+7 (800-00) 0-11-22</a>
+</div>
+  </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
